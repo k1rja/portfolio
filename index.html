@@ -5,46 +5,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KIRJA KREATIVES</title>
   <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Actor&family=Akronim&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <div class="logo">KIRJA KREATIVES</div>
-    <button class="burger-menu">
-       ☰
-     </button>
-     <nav class="main-nav">
-       <ul>
-        <li><a href="#forside">FORSIDE</a></li>
-        <li><a href="#om-mig">OM MIG</a></li>
-        <li><a href="#portfolio">PORTFOLIO</a></li>
-        <li><a href="#kontakt">KONTAKT</a></li>
-       </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section class="banner">
-      <div class="banner-content">
-        <h1>KIRJA KREATIVES</h1>
-        <p>En kreativ portfolio</p>
-      </div>
-    </section>
-    <div class="wrapper">
-      <article class="forside-info">
-        <h2>En kreativ verden</h2>
-        <p>.Som multimediedesigner elsker jeg at udfordre status quo, hvor jeg kan skabe nytænkende løsninger, kombinere teknologi og æstetik på innovative måder. 
-          For mig handler det om at skubbe grænserne for, hvad design kan være, og finde nye måder at kommunikere og engagere på.</p>
-          <p> Jeg har altid haft en stor passion for alt, hvor kreativten kan udfoldes - især med enten en blyant eller pensel i hånden. 
-          Siden starten på studiet er jeg blandt andet blevet fortrolig med blyant og pensel i diverse Adobe-programmer samt meget mere. Se mere om det under PORTFOLIO. </p>
-
-      </article>
-      <img class="img-me" src="images/billede1.jpg" alt="forsidebillede">
+    <div class="header-logo">
+      <a href="index.html" class="logo-link">
+        <span class="logo1">KIRJA</span>
+        <span class="logo2">KREATIVES</span>
+      </a>
     </div>
-  </main>
-
-  <footer>
-    <p>© 2024 - KIRJA KREATIVES</p>
-  </footer>
+   <button class="burger-menu">☰</button>
+   <div class="topnav">
+    <a href="index.html" class="menu-item active">FORSIDE</a>
+    <a href="om-mig.html" class="menu-item">OM MIG</a>
+    <a href="portfolio.html" class="menu-item">PORTFOLIO</a>
+    <a href="kontakt.html" class="menu-item kontakt">KONTAKT</a>
+  </div>
+   <div class="header_actions"></div>
+  </header>
+  <main>
+    <div class="video1-banner">
+      <video autoplay muted loop>
+          <source src="videos/3d.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="wrapper">
+      <div class="left">
+        <img class="img-me" src="images/billede1.webp" alt="forsidebillede">
+      </div>
+      <div class="right">
+      <article class="forside-info">
+        <h2>EN KREATIV VERDEN</h2>
+        <p>Velkommen til min kreative verden!
+          Her på min side finder du et udvalg af mine projekter som multimediedesigner, hvor jeg kombinerer kreativitet, teknologi og æstetik for at skabe unikke løsninger. Uanset om det handler om grafisk design, webdesign eller visuel storytelling, er mit mål altid at skabe noget, der inspirerer og engagerer.</p>
+          <p class="last-paragraph">Tag et kig rundt, og bliv inspireret af mit arbejde i 'PORTFOLIO' eller lær mere om min baggrund under 'OM MIG'. Hvis du har en idé eller et projekt, du vil realisere, er du altid velkommen til at kontakte mig. Jeg glæder mig til at høre fra dig! </p>
+      </article>
+      </div>
+    </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <!-- Logo og kontaktinfo -->
+        <div class="footer-left">
+          <div class="footer-logo">
+            <span class="logo1">KIRJA</span>
+            <span class="logo2">KREATIVES</span>
+          </div>
+          <p class="mail">kontakt@kirjakreatives.dk</p>
+          <p class="tlf">+45 32 69 96 23</p>
+        </div>
+        <!-- Sociale medier -->
+         <div class="social-icon-wrapper">
+          <a href="https://www.linkedin.com/in/kirja-banke-christensen-aa3407266" target="_blank" rel="noopener noreferrer">
+            <img src="images/linkedin.png" alt="LinkedIn">
+          </a>
+          </div>
+        </div>
+      <p class="footer-copyright"><a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">© 2024 - KIRJA KREATIVES (Ikon fra Freepik - Flaticon)</a></p>
+    </footer>
   <script src="main.js"></script>
 </body>
 </html>

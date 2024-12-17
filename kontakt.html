@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KIRJA KREATIVES</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Actor&family=Akronim&display=swap" rel="stylesheet">
+</head>
+<body class="kontakt_body">
+  <header>
+    <div class="header-logo">
+        <a href="index.html" class="logo-link">
+          <span class="logo1">KIRJA</span>
+          <span class="logo2">KREATIVES</span>
+        </a>
+      </div>
+   <button class="burger-menu">☰</button>
+   <div class="topnav">
+    <a href="index.html" class="menu-item">FORSIDE</a>
+    <a href="om-mig.html" class="menu-item">OM MIG</a>
+    <a href="portfolio.html" class="menu-item">PORTFOLIO</a>
+    <a href="kontakt.html" class="menu-item kontakt active">KONTAKT</a>
+  </div>
+   <div class="header_actions"></div>
+  </header>
+  <main>
+    <div class="wrapper">
+      <div class="left">
+        <img class="img-me3" src="images/pic4.webp" alt="kontaktbillede">
+      </div>
+      <div class="right">
+      <article class="kontakt-info">
+        <h2>KONTAKT MIG</h2>
+        <p>Har du spørgsmål eller andet, så tøv ikke med at kontakte mig. Jeg glæder mig til at høre fra dig!</p>
+      <form action="send.php" method="POST" class="kontakt-form">
+        
+        <label for="name">Navn:</label>
+        <input type="text" id="name" name="name" placeholder="Indtast dit navn" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Indtast din email" required>
+      
+        <label for="message">Besked:</label>
+        <textarea id="message" name="message" placeholder="Skriv din besked her..." rows="5" required></textarea>
+      
+        <button type="submit">Send</button>
+      </form>
+      </article>
+      </div>
+      </div>
+  </main>
+  <footer>
+      <div class="footer-container">
+        <!-- Logo og kontaktinfo -->
+        <div class="footer-left">
+          <div class="footer-logo">
+            <span class="logo1">KIRJA</span>
+            <span class="logo2">KREATIVES</span>
+          </div>
+          <p class="mail">kontakt@kirjakreatives.dk</p>
+          <p class="tlf">+45 32 69 96 23</p>
+        </div>
+    
+         <!-- Sociale medier -->
+         <div class="social-icon-wrapper">
+            <a href="https://www.linkedin.com/in/kirja-banke-christensen-aa3407266" target="_blank" rel="noopener noreferrer">
+              <img src="images/linkedin.png" alt="LinkedIn">
+            </a>
+            </div>
+          </div>
+        <p class="footer-copyright"><a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">© 2024 - KIRJA KREATIVES (Ikon fra Freepik - Flaticon)</a></p>
+      </footer>
+    <script src="main.js"></script>
+</body>
+</html>

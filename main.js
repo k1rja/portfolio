@@ -1,6 +1,6 @@
-import './style.css'
-    const burger = document.querySelector('.burger-menu');
-    const nav= document.querySelector('.main.nav');
-    burger.addEventListener('click',()=>{
-        nav.classList.toggle('open');
-    })
+const burgerMenu = document.querySelector('.burger-menu');
+const topNav = document.querySelector('.topnav');
+
+burgerMenu.addEventListener('click', () => {
+  topNav.classList.toggle('active');
+});
