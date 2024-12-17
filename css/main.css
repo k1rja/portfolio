@@ -388,6 +388,18 @@ main{
 .text {
   flex: 1;
 }
+.fodbold{
+  width: 380px;
+  height:400px;
+  padding-right:35px;
+  background:url('../images/fodboldpige.webp')0 0 no-repeat;
+  animation:play 3s steps(15)infinite;
+
+}
+@keyframes play{
+  0%{background-position:0px;}
+  100%{background-position:-6000px;}
+}
 footer {
   display:flex;
   flex-direction:column;
