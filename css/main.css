@@ -364,6 +364,7 @@ main{
   margin-left: 20px; 
   padding-right:35px;
   height: 100%;
+  width:40%;
   object-fit: cover;
 }
 
@@ -374,8 +375,7 @@ main{
   height: 100%;
 }
 
-.content img,
-.content video {
+.content img{
   height: 100%;
   object-fit: cover;
   margin: 0;
@@ -384,6 +384,28 @@ main{
 
 .content.reverse img {
   margin-right: 0;
+}
+.special-video-box .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.special-video-box .video-container {
+  display: flex;
+  justify-content: flex-end; 
+  width: 50%; 
+}
+
+.special-video-box .video-container video {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.special-video-box .text {
+  width: 50%; 
+  padding-right: 35px;
 }
 .text {
   flex: 1;
@@ -529,7 +551,9 @@ footer {
     margin-top:20px;
     padding-left:60px;
     padding-right:60px;
-    padding-bottom:40px;
+  }
+  .forside-info p:last-of-type {
+    margin-bottom: 10px; 
   }
   .om-mig-info h2{
     font-size:40px;
@@ -564,7 +588,7 @@ footer {
   }
   
   .first-box {
-    margin-bottom: 30px; 
+    margin-bottom: 10px; 
   }
   .first-box h1{
     font-size:40px;
@@ -583,10 +607,11 @@ footer {
   }
   .black-box h2{
     font-size:30px;
+    padding-right:80px;
   }
   .black-box p{
     font-size:16px;
-    margin-right:20px;
+    padding-right:80px;
   }
   .white-box h2{
     padding-left:60px;
@@ -604,6 +629,35 @@ footer {
   }
   .text {
     flex: 1;
+  }
+  .special-video-box {
+    height: 350px;
+  }
+
+  .special-video-box .content {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between; 
+    height: 100%; 
+  }
+
+  .special-video-box .video-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    height: 100%;
+  }
+
+  .special-video-box .video-container video {
+    width: 100%;
+    height: 100%;
+  }
+
+  .special-video-box .text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
   }
   .kontakt-info h2{
     font-size:50px;
@@ -861,7 +915,7 @@ footer {
   .white-box .content video {
     margin-left: 20px; 
     padding-right:80px;
-    width:40%;
+    width:40%; 
   }
   
   .content {
@@ -878,11 +932,20 @@ footer {
   .content.reverse img {
     margin-right: 0;
   }
-  .video-right {
-    width: 40%;
-    height: auto; 
+  .special-video-box .video-container {
+    display: flex;
+    justify-content: flex-end; 
+    width: 60%; 
+    height:100%;
+  }
+  
+  .special-video-box .video-container video {
     object-fit: cover;
-    margin-left: 20px; 
+  }
+  
+  .special-video-box .text {
+    width: 50%; 
+    padding-right: 35px;
   }
   .text {
     flex: 1;
