@@ -96,10 +96,10 @@ header{
 .topnav a.active:hover {
   color: #D0CAC3;
 }
-.menu-item.kontakt{
+.menu__item.kontakt{
   color:#D72638;
 }
-.menu-item.kontakt.active:hover {
+.menu__item.kontakt.active:hover {
   color: #D72638;
 }
 .menu__item.kontakt.active {
