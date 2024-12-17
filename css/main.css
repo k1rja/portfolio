@@ -16,7 +16,7 @@ body{
   background-color:#D0CAC3;
   color:#000000;
 }
-.kontakt_body{
+.kontakt__body{
   font-family:'actor',sans-serif;
   background-color:#000000;
   color:#D0CAC3;
@@ -35,7 +35,7 @@ header{
   background-color:#000000;
   padding:0 20px;
 }
-.header-logo {
+.header__logo {
   display: flex;
   flex-direction:row;
   align-items:center;
@@ -58,7 +58,7 @@ header{
   margin-right:0;
   margin-top:-5px;
 }
-.logo-link {
+.logo__link {
   text-decoration: none;
   color:inherit;
   display: flex;
@@ -102,7 +102,7 @@ header{
 .menu-item.kontakt.active:hover {
   color: #D72638;
 }
-.menu-item.kontakt.active {
+.menu__item.kontakt.active {
   color: #D72638;
 }
 .burger-menu{
@@ -214,7 +214,7 @@ main{
   padding-left:35px;
   padding-right:35px;
 }
-.kontakt-form {
+.kontakt__form {
   max-width: 90%;
   margin: 20px auto;
   padding: 15px;
@@ -223,18 +223,18 @@ main{
   border-radius:10px;
   font-family:'actor',sans-serif;
 }
-.kontakt-form h2 {
+.kontakt__form h2 {
   text-align: center;
   font-family:'actor',sans-serif;
   margin-bottom: 20px;
 }
-.kontakt-form label {
+.kontakt__form label {
   display: block;
   margin-bottom: 5px;
   color: #D0CAC3;
 }
-.kontakt-form input,
-.kontakt-form textarea {
+.kontakt__form input,
+.kontakt__form textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
@@ -246,18 +246,18 @@ main{
   box-sizing: border-box;
 }
 
-.kontakt-form textarea {
+.kontakt__form textarea {
   resize: none;
   line-height: 1.5;
 }
 
-.kontakt-form input::placeholder,
-.kontakt-form textarea::placeholder {
+.kontakt__form input::placeholder,
+.kontakt__form textarea::placeholder {
   color: #888;
   font-family: 'actor', sans-serif;
   font-size: 16px;
 }
-.kontakt-form button {
+.kontakt__form button {
   width: 100%;
   padding: 10px;
   background-color: #7b61ff;
@@ -267,7 +267,7 @@ main{
   font-size: 16px;
   cursor: pointer;
 }
-.kontakt-form button:hover {
+.kontakt__form button:hover {
   background-color: #5a47cc;
 }
 
@@ -420,33 +420,33 @@ footer {
   color: #D0CAC3;
   height:90px;
 }
-.footer-container {
+.footer--container {
   display: flex;
   justify-content: space-between;
   align-items: center; 
   width: 100%;
 }
-.footer-left {
+.footer--left {
   text-align:left;
   flex:1;
 }
-.footer-logo {
+.footer__logo {
   display:flex;
   flex-direction:row;
 }
-.footer-logo .logo1 {
+.footer__logo .logo1 {
   font-size:0.8rem;
   padding-left:35px;
   padding-top:13px;
   padding-bottom:3px;
 }
-.footer-logo .logo2 {
+.footer__logo .logo2 {
   font-size:0.8rem;
   padding-top:20px;
   padding-left:4px;
   padding-bottom:3px;
 }
-.footer-left p {
+.footer--left p {
   font-size: 0.5rem;
   padding-left:35px;
   padding-top:8px;
@@ -463,7 +463,7 @@ footer {
   width: 30px;
   height: 30px;
 }
-.footer-copyright {
+.footer--copyright {
   display:flex;
   text-decoration:none;
   justify-content:center;
@@ -500,7 +500,7 @@ footer {
   .burger-menu{
     display:none;
   }
-  .header-logo {
+  .header__logo {
     display: flex;
     flex-direction:row;
     padding:0;
@@ -679,26 +679,26 @@ footer {
     margin: 20px auto;
     padding: 15px;
   }
-  .kontakt-form h2 {
+  .kontakt__form h2 {
     margin-bottom: 20px;
   }
-  .kontakt-form label {
+  .kontakt__form label {
     display: block;
     margin-bottom: 5px;
   }
-  .kontakt-form input,
-  .kontakt-form textarea {
+  .kontakt__form input,
+  .kontakt__form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     font-size: 16px;
   }
-  .kontakt-form input:focus,
-  .kontakt-form textarea:focus {
+  .kontakt__form input:focus,
+  .kontakt__form textarea:focus {
     outline: none;
   }
-  .kontakt-form button {
+  .kontakt__form__button {
     width: 100%;
     border: none;
     font-size: 16px;
@@ -706,19 +706,19 @@ footer {
    footer {
      height:150px;
   }
-  .footer-logo .logo1 {
+  .footer__logo .logo1 {
     font-size:1.2rem;
     padding-left:60px;
     padding-top:32px;
     padding-bottom:3px;
   }
-  .footer-logo .logo2 {
+  .footer__logo .logo2 {
     font-size:1.2rem;
     padding-top:40px;
     padding-left:4px;
     padding-bottom:3px;
   }
-  .footer-left p {
+  .footer--left p {
     font-size: 0.8rem;
     padding-left:60px;
     padding-top:8px;
@@ -732,7 +732,7 @@ footer {
     width: 60px;
     height: 60px;
   }
-  .footer-copyright {
+  .footer--copyright {
     font-size: 0.8rem;
     padding-bottom:10px;
   }
@@ -781,7 +781,7 @@ footer {
     padding: 14px 16px;
     font-size:20px;
   }
-  .header-logo {
+  .header__logo {
     display: flex;
     flex-direction:row;
     padding:0;
@@ -801,7 +801,7 @@ footer {
     color:#A8C686;
     padding-top:15px;
   }
-  .logo-link {
+  .logo__link {
     gap:13px;
   }
   .banner{
@@ -838,7 +838,7 @@ footer {
     font-size:50px;
     line-height:44px;
     padding-left:60px;
-    margin-top:-90px;
+    margin-top:-80px;
   }
   .forside-info p{
     font-size:16px;
@@ -976,31 +976,31 @@ footer {
     margin-top:30px;
     padding-left:50px;
   }
-  .kontakt-form {
+  .kontakt__form {
     max-width: 90%;
     margin: 20px auto;
     padding: 15px;
   }
-  .kontakt-form h2 {
+  .kontakt__form h2 {
     margin-bottom: 20px;
   }
-  .kontakt-form label {
+  .kontakt__form label {
     display: block;
     margin-bottom: 5px;
   }
-  .kontakt-form input,
-  .kontakt-form textarea {
+  .kontakt__form input,
+  .kontakt__form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     font-size: 16px;
   }
-  .kontakt-form input:focus,
-  .kontakt-form textarea:focus {
+  .kontakt__form input:focus,
+  .kontakt__form textarea:focus {
     outline: none;
   }
-  .kontakt-form button {
+  .kontakt__form__button {
     width: 100%;
     border: none;
     font-size: 16px;
@@ -1008,22 +1008,22 @@ footer {
    footer {
      height:200px;
   }
-  .footer-logo .logo1 {
+  .footer__logo .logo1 {
     font-size:1.8rem;
     padding-left:80px;
     padding-top:40px;
     padding-bottom:3px;
   }
-  .footer-logo .logo2 {
+  .footer__logo .logo2 {
     font-size:1.8rem;
     padding-top:49px;
     padding-left:4px;
     padding-bottom:6px;
   }
-  .footer-logo{
+  .footer__logo{
     gap:10px;
   }
-  .footer-left p {
+  .footer--left p {
     font-size: 1rem;
     padding-left:80px;
     padding-top:8px;
@@ -1037,7 +1037,7 @@ footer {
     width: 80px;
     height: 80px;
   }
-  .footer-copyright {
+  .footer--copyright {
     font-size: 1rem;
     padding-bottom:10px;
   }
